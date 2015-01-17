@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Install Xinu on Raspberry Pi  by cosmozhang</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/cosmozhang/xinu">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Install Xinu on Raspberry Pi </h1>
+            <h2>This website documents installation of Xinu on Raspberry Pi</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/cosmozhang/xinu/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/cosmozhang/xinu/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="installation-of-xinu-on-raspberry-pi" class="anchor" href="#installation-of-xinu-on-raspberry-pi" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation of Xinu on Raspberry Pi.</h1>
+
+<h3>
+<a id="hardware" class="anchor" href="#hardware" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hardware:</h3>
+
+<ul>
+<li>Raspberry Pi B+
+### System:</li>
+<li>Embedded Xinu</li>
+</ul>
+
+<h1>
+<a id="procedure" class="anchor" href="#procedure" aria-hidden="true"><span class="octicon octicon-link"></span></a>Procedure</h1>
+
+<ul>
+<li>git clone <a href="https://github.com/xinu-os/xinu">https://github.com/xinu-os/xinu</a>
+</li>
+<li>cd xinu</li>
+<li>make -C compile PLATFORM=arm-rpi</li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/cosmozhang">cosmozhang</a> can be found on <a href="https://github.com/cosmozhang/xinu">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
